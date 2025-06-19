@@ -39,4 +39,7 @@ VPC peering if user requests
 * vpc_peering_tags (optional) - default value is empty. type is map.
 
 ### outputs
-vpc_id  - VPC ID created
+* vpc_id  - VPC ID created
+* public_subnet_ids -2 public subnet ID created
+* private_subnet_ids - 2 private subnet ID created
+* database_subnet_ids - 2 database subnet ID created
